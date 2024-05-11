@@ -4,7 +4,7 @@ import { FaDownload } from "react-icons/fa6";
 import { IoMdCloseCircle } from "react-icons/io";
 import { motion } from "framer-motion"
 
-function Card({ data,reference }) {
+function Card({ data,reference}) {
   return (
     <motion.div drag dragConstraints={reference} whileDrag={{scale:1.1}} dragElastic={1} className=" relative w-52 h-60 rounded-[20px] bg-zinc-700 p-5 text-white overflow-hidden">
       <FaRegFileLines />
